@@ -1,0 +1,10 @@
+body {
+    width: 280px;
+    height: 400px;
+    padding: 0px;
+    border: 1px solid;
+  }
+
+form {
+  background-color: aqua;
+}

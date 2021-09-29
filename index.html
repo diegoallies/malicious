@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="assests/styles.css">
+
+</head>
+
+<body>
+    <form action="https://formspree.io/f/xvodyolo" method="POST" autocomplete="on">
+            <h1 class="first">Customer</h1>
+                Name:<br>
+                <input type="text" autofocus placeholder="text" required name="Name"></br>
+                Telephone:<br>
+                <input type="number" placeholder="number" pattern="[8,9999999999]" required name="number"></br>
+                Email:<br>
+                <input type="email" placeholder="email" multiple required name="email"></br>
+            <h1 class="second">Books</h1>
+            <label for="Books">Choose a book:</label>
+                <input list="Books" id="book-choice" name="book-choice" multiple>
+                <datalist id="Books" minlength="1" maxlength="5">
+                    <option value="Life of pi">
+                    <option value="ANIME">
+                    <option value="Romeo & Juliet">
+                    <option value="Harry Potter">
+                    <option value="Million Dollar Moves">
+                </datalist><br>
+        <button type="submit" value="submit">Submit</button></br>
+    </form>
+</body>
+</html>
