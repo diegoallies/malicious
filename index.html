@@ -15,8 +15,8 @@
 <body>
     <form action="https://formspree.io/f/xvodyolo" method="POST" autocomplete="on">
             <h1 class="first">Customer</h1>
-                Name:<br>
-                <input type="text" autofocus placeholder="text" required name="Name"></br>
+                Name:
+                <input type="text" autofocus placeholder="text" required name="Name">
                 Telephone:<br>
                 <input type="number" placeholder="number" pattern="[8,9999999999]" required name="number"></br>
                 Email:<br>
@@ -31,6 +31,8 @@
                     <option value="Harry Potter">
                     <option value="Million Dollar Moves">
                 </datalist><br>
+            Quantity:(maximum 5)<br>
+            <input type="number" maxlength="5" minlength="1" name="quantity" placeholder="1-5"
         <button type="submit" value="submit">Submit</button></br>
     </form>
 </body>
